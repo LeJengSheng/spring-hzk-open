@@ -30,6 +30,7 @@ public class HzkApplicationContext {
         scan(configClass);
         //2.创建非懒加载的单例bean
         CreateNonLazySingletonBean();
+        System.out.println("hello");
 
 
     }
